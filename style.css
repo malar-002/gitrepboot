@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Onest', sans-serif;
+    font-size: 20px;
+}
+
+#navstyle{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem .5rem;
+    background: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight:bold;
+}
+
+
+section{
+    
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+
+.goTotop{
+    display: block;
+    text-align: end;
+    padding: 20px;
+    font-weight: bold;
+    color:rgb(80, 127, 255)
+}
+
+ .aboutimg{
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-size: cover;
+    align-items: center;
+
+ }
+ .abouth3,.contacth3,.reviewh3,.loginh3{
+    text-align:center;
+     margin-top: 30px; 
+     font-weight: bold;
+     font-size: 35px;
+     color: darkorange;
+ }
+
+
+label{
+    font-weight: bold;
+}
+input{
+border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 15px #888888;
+}
+form{
+    border: 0.5px solid rgba(128, 128, 128, 0.377);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+.card-img-top{
+ padding: 20px;
+ border-radius: 50px;
+}
+
+.btn-primary{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
